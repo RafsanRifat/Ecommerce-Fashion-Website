@@ -1,0 +1,17 @@
+@mixin btn {
+    padding: 13.7px 45px;
+    background: #fff;
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19.2px;
+    text-align: left;
+    color: #1e1e1f;
+
+    &:focus
+    &:active {
+        border: none;
+        box-shadow: none !important;
+        outline: none;
+    }
+}

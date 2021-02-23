@@ -1,0 +1,84 @@
+//MEDIA QUERY MANAGER
+/*
+0-340px:        Phone-small
+341-375px:      Iphone-x
+376-576px:      Phone-medium
+577-767px:      Phone-large
+768-991px:      Tablet
+992-1024px:     Ipad-pro
+1025-1200px:    Tab-land
+[1200-1800px:]  is where our normal styles apply
+1800px + :      Big Desktop
+*/
+
+@mixin respond($breakpoint) {
+    @if $breakpoint==phone-small {
+      @media only screen and (max-width: 340px) {
+        @content;
+      }
+    }
+  
+    @if $breakpoint==iphone-x {
+      @media only screen and (max-width: 375px) {
+        @content;
+      }
+    }
+  
+    @if $breakpoint==phone-medium {
+      @media only screen and (max-width: 576px) {
+        @content;
+      }
+    }
+  
+    @if $breakpoint==phone-large {
+      @media only screen and (max-width: 767px) {
+        @content;
+      }
+    }
+  
+    @if $breakpoint==tab-port {
+      @media only screen and (max-width: 991px) {
+        @content;
+      }
+    }
+  
+    @if $breakpoint==ipad-pro {
+      @media only screen and (max-width: 1024px) {
+        @content;
+      }
+    }
+  
+    @if $breakpoint==tab-land {
+      @media only screen and (max-width: 1200px) {
+        @content;
+      }
+    }
+  
+    @if $breakpoint==desktop {
+      @media only screen and (max-width: 1500px) {
+        @content;
+      }
+    }
+  
+    @if $breakpoint==mid-desktop {
+      @media only screen and (max-width: 1800px) {
+        @content;
+      }
+    }
+  
+    @if $breakpoint==big-desktop {
+      @media only screen and (min-width: 1800px) {
+        @content;
+      }
+    }
+  }
+
+
+
+
+//   @media only screen and (min-width: 991px) {
+    
+//     .container{
+//       width: 85%;
+//     }
+//   }

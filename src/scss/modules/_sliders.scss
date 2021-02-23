@@ -1,0 +1,62 @@
+.hero-slider-wraper{
+    .hero-slider-slide-wraper{
+        position: relative;
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+        .slider-content-wraper{
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%, -50%);
+            -webkit-transform: translate(50%, -50%);
+            -moz-transform: translate(50%, -50%);
+            -ms-transform: translate(50%, -50%);
+            -o-transform: translate(50%, -50%);
+            text-align: center;
+            width: 100%;
+
+            h5{
+                font-family: $poppins-font;
+                font-weight: normal;
+                font-size: 18px;
+                letter-spacing: 0.2em;
+                line-height: 43.45px;
+                color: #fff;
+
+            }
+            h1{
+                font-family: $abril-font;
+                font-weight: normal;
+                font-size: 52px;
+                line-height: 43.45px;
+                color: #fff;
+
+            }
+
+            .btn{
+                margin-top: 50px;
+            }
+        }
+    }
+}
+
+
+.owl-dots{
+    background: red;
+    position: absolute;
+    bottom: 50px;
+    right: 50%;
+    .owl-dot{
+
+        width: 8px;
+        height: 8px;
+        background: #fff;
+        opacity: 0.5;
+        z-index: 1;
+    }
+}
+
+
+

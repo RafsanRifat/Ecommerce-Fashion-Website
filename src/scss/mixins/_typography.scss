@@ -1,0 +1,77 @@
+@import '../variables';
+
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: $poppins-font;
+    font-weight: $p-font-weight;
+    font-size: $p-font-size;
+    box-sizing: border-box;
+}
+
+
+@mixin h1 {
+    
+    font-family: $abril-font;
+    font-weight: $h1-font-weight;
+    $h1-font-size: $h1-font-size;
+    color: $primary-color;
+
+}
+
+@mixin h2 {
+    
+    font-family: $abril-font;
+    font-weight: $h2-font-weight;
+    $h1-font-size: $h2-font-size;
+    color: $primary-color;
+
+}
+
+@mixin h3 {
+    
+    font-family: $abril-font;
+    font-weight: $h3-font-weight;
+    $h1-font-size: $h3-font-size;
+    color: $primary-color;
+
+}
+
+@mixin h4 {
+    
+    font-family: $poppins-font;
+    font-weight: $h4-font-weight;
+    $h1-font-size: $h4-font-size;
+    color: $primary-color;
+
+}
+
+@mixin h5 {
+    
+    font-family: $poppins-font;
+    font-weight: $h5-font-weight;
+    $h1-font-size: $h5-font-size;
+    color: $secondary-color;
+
+}
+
+@mixin h6 {
+    
+    font-family: $poppins-font;
+    font-weight: $h6-font-weight;
+    $h1-font-size: $h6-font-size;
+    color: $secondary-color;
+
+}
+
+@mixin p {
+    
+    font-family: $poppins-font;
+    font-weight: $p-font-weight;
+    $h1-font-size: $p-font-size;
+    color: $secondary-color;
+    margin-bottom: 0;
+
+}

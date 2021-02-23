@@ -1,0 +1,12 @@
+.btn{
+    @include btn;
+}
+
+.divider {
+    width: 170px;
+    height: 2px;
+    background: #d6d8dc;
+    margin-bottom: 50px;
+
+}
+

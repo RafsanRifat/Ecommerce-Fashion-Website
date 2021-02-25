@@ -1,0 +1,55 @@
+.pika-nav {
+    margin-bottom: 30px;
+}
+
+
+//categories part start===========================
+
+.catagories {
+    &_wrapper {
+        border: 1px solid $border-color;
+
+        &_top-content {
+            padding: 43px 0 39.9px 0;
+            text-align: center;
+
+            h6 {
+                margin-bottom: 5px;
+            }
+        }
+
+        &_catagorie-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            border-top: 1px solid $border-color;
+            text-align: center;
+
+
+            &_icon {
+                flex: 33.33%;
+                position: relative;
+                border-right: 1px solid $border-color;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+
+            }
+
+            &_categorie-name {
+                flex: 66.66%;
+                padding: 30.2px 0 29.8px 0;
+
+                p{
+                    display: inline-block;
+                    margin-right: 19.8px;
+                }
+                
+            }
+        }
+    }
+}
+
+
+
+// categories slider start==============

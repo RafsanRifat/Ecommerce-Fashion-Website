@@ -32,6 +32,10 @@
     <!-- icofont css -->
     <link rel="stylesheet" href="vendor/icofont/icofont.min.css">
 
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.theme.default.min.css">
+
     <!-- Main css -->
     <link rel="stylesheet" href="css/main.css">
 
@@ -100,29 +104,88 @@
         <!-- start of nav section -->
         <nav>
             <div class="container">
-               <div class="pika-nav">
-                <div class="row no-gutters">
-                    <div class="col-lg-3">
-                        <div class="pika-nav_logo">
-                            <img src="img/home-1/logo.png" alt="">
+                <div class="pika-nav">
+                    <div class="row no-gutters">
+                        <div class="col-lg-3">
+                            <div class="pika-nav_logo">
+                                <img src="img/home-1/logo.png" alt="">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-9">
-                        <div class="pika-nav_right">
-                            <div class="row no-gutters">
-                                <div class="col-12">
-                                    <div class="pika-nav_right_top">
-                                        <div class="pika-nav_right_top_search-bar">
-                                            <form>
-                                                <input type="text" placeholder="Search here...">
-                                                <button><img src="img/home-1/search.png" alt=""></button>
-                                            </form>
+                        <div class="col-lg-9">
+                            <div class="pika-nav_right">
+                                <div class="row no-gutters">
+                                    <div class="col-12">
+                                        <div class="pika-nav_right_top">
+                                            <div class="pika-nav_right_top_search-bar">
+                                                <form>
+                                                    <input type="text" placeholder="Search here...">
+                                                    <button><img src="img/home-1/search.png" alt=""></button>
+                                                </form>
+                                            </div>
+                                            <div class="pika-nav_right_top_cart">
+                                                <img src="img/home-1/cart.png" alt="">
+                                            </div>
+                                            <div class="pika-nav_right_top_menu-icon">
+                                                <img src="img/home-1/menu.png" alt="">
+                                            </div>
                                         </div>
-                                        <div class="pika-nav_right_top_cart">
-                                            <img src="img/home-1/cart.png" alt="">
-                                        </div>
-                                        <div class="pika-nav_right_top_menu-icon">
-                                            <img src="img/home-1/menu.png" alt="">
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="pika-nav_right_menu-items">
+                                            <div class="pika-nav_right_menu-items_menu-single-item">
+                                                <div class="dropdown show">
+                                                    <a class="dropdown-toggle" href="#" role="button"
+                                                        id="dropdownMenuLink" data-toggle="dropdown"
+                                                        aria-haspopup="true" aria-expanded="false">
+                                                        HOME
+                                                    </a>
+
+                                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                        <a class="dropdown-item" href="#">Euro</a>
+                                                        <a class="dropdown-item" href="#">Pound</a>
+                                                        <a class="dropdown-item" href="#">Yen</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pika-nav_right_menu-items_menu-single-item">
+                                                <div class="dropdown show">
+                                                    <a class="dropdown-toggle" href="#" role="button"
+                                                        id="dropdownMenuLink" data-toggle="dropdown"
+                                                        aria-haspopup="true" aria-expanded="false">
+                                                        PRODUCTS
+                                                    </a>
+
+                                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                        <a class="dropdown-item" href="#">Euro</a>
+                                                        <a class="dropdown-item" href="#">Pound</a>
+                                                        <a class="dropdown-item" href="#">Yen</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pika-nav_right_menu-items_menu-single-item">
+                                                <div class="dropdown show">
+                                                    <a class="dropdown-toggle" href="#" role="button"
+                                                        id="dropdownMenuLink" data-toggle="dropdown"
+                                                        aria-haspopup="true" aria-expanded="false">
+                                                        DEMO
+                                                    </a>
+
+                                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                        <a class="dropdown-item" href="#">Euro</a>
+                                                        <a class="dropdown-item" href="#">Pound</a>
+                                                        <a class="dropdown-item" href="#">Yen</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pika-nav_right_menu-items_menu-single-item">
+                                                <a href="#">BLOG</a>
+                                            </div>
+                                            <div class="pika-nav_right_menu-items_menu-single-item">
+                                                <a href="#">ORDERS</a>
+                                            </div>
+                                            <div class="pika-nav_right_menu-items_menu-single-item">
+                                                <a href="#">CONTACT US</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -130,11 +193,140 @@
                         </div>
                     </div>
                 </div>
-               </div>
-                </div>
+            </div>
         </nav>
         <!-- end of nav section -->
     </header>
+
+    <!-- start of catagories section -->
+    <section class="catagories">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-3">
+                    <div class="catagories_wrapper">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="catagories_wrapper_top-content">
+                                    <h2>Categories</h2>
+                                    <p>FEATURED CATEGORIES</p>
+
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="catagories_wrapper_catagorie-wrapper">
+                                    <div class="catagories_wrapper_catagorie-wrapper_icon">
+                                        <img src="img/home-1/home-1-categorie-1.png" alt="">
+                                    </div>
+                                    <div class="catagories_wrapper_catagorie-wrapper_categorie-name">
+                                        <p>SUIT MENS</p>
+                                        <img src="img/home-1/gatagories-arrow.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="catagories_wrapper_catagorie-wrapper">
+                                    <div class="catagories_wrapper_catagorie-wrapper_icon">
+                                        <img src="img/home-1/home-1-categorie-2.png" alt="">
+                                    </div>
+                                    <div class="catagories_wrapper_catagorie-wrapper_categorie-name">
+                                        <p>VINTAGE BAGS</p>
+                                        <img src="img/home-1/gatagories-arrow.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="catagories_wrapper_catagorie-wrapper">
+                                    <div class="catagories_wrapper_catagorie-wrapper_icon">
+                                        <img src="img/home-1/home-1-categorie-3.png" alt="">
+                                    </div>
+                                    <div class="catagories_wrapper_catagorie-wrapper_categorie-name">
+                                        <p>LUXURY JEWELRY</p>
+                                        <img src="img/home-1/gatagories-arrow.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="catagories_wrapper_catagorie-wrapper">
+                                    <div class="catagories_wrapper_catagorie-wrapper_icon">
+                                        <img src="img/home-1/home-1-categorie-4.png" alt="">
+                                    </div>
+                                    <div class="catagories_wrapper_catagorie-wrapper_categorie-name">
+                                        <p>LEATHER SHOES</p>
+                                        <img src="img/home-1/gatagories-arrow.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="catagories_wrapper_catagorie-wrapper">
+                                    <div class="catagories_wrapper_catagorie-wrapper_icon">
+                                        <img src="img/home-1/home-1-categorie-5.png" alt="">
+                                    </div>
+                                    <div class="catagories_wrapper_catagorie-wrapper_categorie-name">
+                                        <p>ACCESSORIES</p>
+                                        <img src="img/home-1/gatagories-arrow.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="catagories_wrapper_catagorie-wrapper">
+                                    <div class="catagories_wrapper_catagorie-wrapper_icon">
+                                        <img src="img/home-1/home-1-categorie-6.png" alt="">
+                                    </div>
+                                    <div class="catagories_wrapper_catagorie-wrapper_categorie-name">
+                                        <p>LINGERINE SET</p>
+                                        <img src="img/home-1/gatagories-arrow.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- start of categories slider -->
+                <div class="col-lg-9">
+                    <div class="categorie-slider owl-carousel owl-theme">
+                        <div class="categorie-slider_wrapper item">
+                            <img src="img/home-1/home-1-1st-slider.png" alt="">
+                            <div class="categorie-slider_wrapper_slider-content">
+                                <h5>NEW FOR SPING 2016</h5>
+                                <h1>Buy More, Save More</h1>
+                                <button class="btn">SHOP NOW</button>
+                            </div>
+                        </div>
+                        <div class="categorie-slider_wrapper item">
+                            <img src="img/home-1/home-1-1st-slider-2.jpg" alt="">
+                            <div class="categorie-slider_wrapper_slider-content">
+                                <h5>NEW FOR SPING 2016</h5>
+                                <h1>Buy More, Save More</h1>
+                                <button class="btn">SHOP NOW</button>
+                            </div>
+                        </div>
+                        <div class="categorie-slider_wrapper item">
+                            <img src="img/home-1/home-1-1st-slider.png" alt="">
+                            <div class="categorie-slider_wrapper_slider-content">
+                                <h5>NEW FOR SPING 2016</h5>
+                                <h1>Buy More, Save More</h1>
+                                <button class="btn">SHOP NOW</button>
+                            </div>
+                        </div>
+                        <div class="categorie-slider_wrapper item">
+                            <img src="img/home-1/home-1-1st-slider.png" alt="">
+                            <div class="categorie-slider_wrapper_slider-content">
+                                <h5>NEW FOR SPING 2016</h5>
+                                <h1>Buy More, Save More</h1>
+                                <button class="btn">SHOP NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of categories slider -->
+
+
+            </div>
+        </div>
+    </section>
+    <!-- End of catagories section -->
+
+    
 
 
 
@@ -151,6 +343,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
+
+    <!-- owl carousel js -->
+    <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
 
 
 

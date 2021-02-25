@@ -59,4 +59,75 @@
 // }
 
 
+// Categorie slider===========================================
 
+.categorie-slider {
+    padding-left: 30px;
+    
+
+    &_wrapper {
+        width: 100%;
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        &_slider-content {
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            text-align: center;
+
+            h5 {
+                font-family: $poppins-font;
+                font-weight: normal;
+                font-size: 18px;
+                letter-spacing: 0.2em;
+                line-height: 43.45px;
+                color: #fff;
+
+            }
+
+            h1 {
+                font-family: $abril-font;
+                font-weight: normal;
+                font-size: 52px;
+                line-height: 43.45px;
+                color: #fff;
+
+            }
+            .btn{
+                                margin-top: 50px;
+                            }
+        }
+    }
+}
+
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    position: absolute;
+    right: 44%;
+    bottom: 5%;
+}
+
+.owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    opacity: 0.5;
+    margin-right: 10px;
+    span{
+        display: none;
+    }
+}
+.active{
+    background: #fff;
+}

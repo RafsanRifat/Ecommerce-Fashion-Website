@@ -17,23 +17,23 @@
             }
         }
 
-        &_language,
-        &_currency {
-            a {
-                color: $secondary-color;
+        // &_language,
+        // &_currency {
+        //     a {
+        //         color: $secondary-color;
 
 
-                &:focus,
-                &:active,
-                &:hover {
-                    outline: none;
-                    border: none;
-                    box-shadow: none !important;
-                    text-decoration: none;
+        //         &:focus,
+        //         &:active,
+        //         &:hover {
+        //             outline: none;
+        //             border: none;
+        //             box-shadow: none !important;
+        //             text-decoration: none;
 
-                }
-            }
-        }
+        //         }
+        //     }
+        // }
 
         &_currency {
             border-left: 1px solid $border-color;
@@ -47,13 +47,18 @@
 //navbar start
 .pika-nav {
     &_logo {
-        padding: 66.7px 107.9px 64.8px 95px;
-        border: 1px solid $border-color;
+        padding: 66.7px 107.9px 67.8px 95px;
+        border-right: 1px solid $border-color;
+        border-bottom: 1px solid $border-color;
+        border-left: 1px solid $border-color;
     }
 
     &_right {
+        border-bottom: 1px solid $border-color;
+        border-right: 1px solid $border-color;
+
         &_top {
-            border: 1px solid $border-color;
+            border-bottom: 1px solid $border-color;
             display: flex;
             flex-wrap: wrap;
 
@@ -74,8 +79,7 @@
                     border-bottom: 1px solid $border-color;
 
                     &:focus,
-                    &:active
-                        {
+                    &:active {
                         outline: none;
                         border: none;
                         box-shadow: none !important;
@@ -96,8 +100,7 @@
                     color: #1e1e1f;
 
                     &:focus,
-                    &:active
-                        {
+                    &:active {
                         outline: none;
                         border: none;
                         box-shadow: none !important;
@@ -107,7 +110,7 @@
                 }
             }
 
-            &_cart{
+            &_cart {
                 flex: 11.1%;
                 padding-top: 36.8px;
                 padding-bottom: 38.2px;
@@ -115,12 +118,27 @@
                 border-left: 1px solid $border-color;
 
             }
-            &_menu-icon{
+
+            &_menu-icon {
                 flex: 11.1%;
                 padding-top: 36.8px;
                 padding-bottom: 38.2px;
                 border-left: 1px solid $border-color;
                 text-align: center;
+            }
+
+        }
+
+        &_menu-items {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            padding: 18.8px 136.2px 21.2px 143.8px;
+
+            a{
+                &:focus{
+                    color: red;
+                }
             }
 
         }

@@ -81,3 +81,19 @@ body{
     margin: 0;
 
 }
+
+
+a {
+    color: $secondary-color;
+
+
+    &:focus,
+    &:active,
+    &:hover {
+        outline: none;
+        border: none;
+        box-shadow: none !important;
+        text-decoration: none;
+
+    }
+}

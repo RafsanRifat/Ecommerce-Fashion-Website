@@ -13,7 +13,7 @@
             padding: 43px 0 39.9px 0;
             text-align: center;
 
-            h6 {
+            h2 {
                 margin-bottom: 5px;
             }
         }
@@ -40,11 +40,11 @@
                 flex: 66.66%;
                 padding: 30.2px 0 29.8px 0;
 
-                p{
+                p {
                     display: inline-block;
                     margin-right: 19.8px;
                 }
-                
+
             }
         }
     }
@@ -53,3 +53,76 @@
 
 
 // categories slider start==============
+
+
+// start of free shipping section
+.free-shipping-section {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+// ends of free shipping section
+
+
+
+//start pf fashion section
+.fashion-section {
+
+    .fashion {
+        position: relative;
+
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+
+        &_content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            text-align: center;
+            width: 100%;
+
+            h6 {
+                margin-bottom: 3.9px;
+                font-family: $poppins-font;
+                font-weight: normal;
+                font-size: 16px;
+                letter-spacing: 0.5em;
+                color: #fff;
+
+            }
+
+            h1 {
+                font-family: $poppins-font;
+                font-weight: normal;
+                font-size: 48px;
+                color: #fff;
+
+            }
+
+            i {
+
+                font-size: 36px;
+                color: #fff;
+                margin-bottom: 26px;
+                margin-top: 13.7px;
+            }
+
+            h2 {
+                font-family: $poppins-font;
+                font-weight: normal;
+                font-size: 32px;
+                color: #fff;
+
+            }
+        }
+    }
+}
+
+//ends of fashion section

@@ -1,0 +1,44 @@
+.section-title {
+    margin-top: 98.3px;
+    margin-bottom: 50px;
+    text-align: center;
+
+    h2 {
+        font-family: $abril-font;
+        font-weight: normal;
+        font-size: 36px;
+        color: #1e1e1f;
+        margin-bottom: 3.9px;
+
+    }
+
+    p {
+        font-family: $poppins-font;
+        font-weight: normal;
+        font-size: 14px;
+        letter-spacing: 0.3em;
+        text-align: center;
+        color: #5f5f5f;
+        margin-bottom: 24.8px;
+    }
+
+    &_line {
+        width: 170px;
+        height: 2px;
+        background: #d6d8dc;
+        transition: ease-in-out .5s;
+        -webkit-transition: ease-in-out .5s;
+        -moz-transition: ease-in-out .5s;
+        -ms-transition: ease-in-out .5s;
+        -o-transition: ease-in-out .5s;
+
+    }
+
+    &:hover{
+        .section-title_line{
+          
+           width: 300px;
+          
+}
+    }
+}

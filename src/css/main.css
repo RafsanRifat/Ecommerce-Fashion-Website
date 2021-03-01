@@ -194,25 +194,21 @@ a {
         color: #fff; }
       .categorie-slider_wrapper_slider-content .btn {
         margin-top: 50px; }
+  .categorie-slider .owl-dots {
+    position: absolute;
+    right: 44%;
+    bottom: 5%; }
+    .categorie-slider .owl-dots button {
+      width: 8px;
+      height: 8px;
+      background: #fff;
+      opacity: 0.5;
+      margin-right: 10px; }
+      .categorie-slider .owl-dots button .active {
+        background: #fff; }
 
-.owl-theme .owl-nav.disabled + .owl-dots {
-  position: absolute;
-  right: 44%;
-  bottom: 5%; }
-
-.owl-theme .owl-dots .owl-dot {
-  display: inline-block;
-  zoom: 1;
-  width: 8px;
-  height: 8px;
-  background: #fff;
-  opacity: 0.5;
-  margin-right: 10px; }
-  .owl-theme .owl-dots .owl-dot span {
-    display: none; }
-
-.active {
-  background: #fff; }
+.owl-theme .owl-dots .owl-dot span {
+  display: none; }
 
 @keyframes shake {
   0% {
@@ -447,6 +443,17 @@ a {
   .section-title:hover .section-title_line {
     width: 300px; }
 
+.date-counter .single-date-wraper {
+  margin-right: 20px; }
+  .date-counter .single-date-wraper .date-wraper {
+    width: 60px;
+    height: 60px;
+    background: #d6d8dc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 9.9px; }
+
 .nav-top_wraper {
   border-bottom: 1px solid #D6D8DC;
   padding: 15.2px 0 12.8px 0; }
@@ -597,3 +604,133 @@ a {
       font-weight: normal;
       font-size: 32px;
       color: #fff; }
+
+.feature-products-section {
+  margin-bottom: 143px; }
+
+.special-deal-section {
+  background: #f7f7f8; }
+  .special-deal-section .special-deal-image img {
+    width: 100%;
+    height: auto;
+    margin-top: -50px;
+    margin-bottom: -50px; }
+  .special-deal-section .special-deal-content-wrapper {
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    padding-left: 126px;
+    padding-right: 139px;
+    padding-top: 48.3px; }
+    .special-deal-section .special-deal-content-wrapper .special-deal-content-wrapper_top h1 {
+      font-family: "Abril Fatface", cursive;
+      font-weight: normal;
+      font-size: 60px;
+      text-align: left;
+      color: #1e1e1f;
+      margin-bottom: 5px; }
+    .special-deal-section .special-deal-content-wrapper .special-deal-content-wrapper_top h5 {
+      font-family: "Poppins", sans-serif;
+      font-weight: normal;
+      font-size: 18px;
+      letter-spacing: 0.3em;
+      text-align: left;
+      color: #5f5f5f; }
+    .special-deal-section .special-deal-content-wrapper .special-deal-content-wrapper_top .section-title_line {
+      text-align: left;
+      margin: 0;
+      margin-top: 33.8px;
+      margin-bottom: 45.4px; }
+    .special-deal-section .special-deal-content-wrapper .special-deal-content-wrapper_top p {
+      font-family: "Poppins", sans-serif;
+      font-weight: normal;
+      font-size: 14px;
+      text-align: left;
+      color: #5f5f5f;
+      margin-bottom: 23.5px; }
+    .special-deal-section .special-deal-content-wrapper .date-counter {
+      display: flex; }
+    .special-deal-section .special-deal-content-wrapper .btn {
+      margin-top: 55.1px;
+      background: #1e1e1f;
+      color: #fff; }
+
+.new-arraival-section {
+  margin-bottom: 143px; }
+
+.testimonial-section {
+  background: #f7f7f8; }
+  .testimonial-section .testimonial-section_left-part {
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    position: relative; }
+    .testimonial-section .testimonial-section_left-part .fa-quote-left {
+      position: absolute;
+      top: 171px;
+      left: 78px; }
+    .testimonial-section .testimonial-section_left-part .fa-quote-right {
+      position: absolute;
+      bottom: 105px;
+      right: 69px; }
+  .testimonial-section_content-wrapper {
+    width: 100%;
+    padding-left: 146.6px;
+    padding-right: 147.4px;
+    padding-top: 48.3px; }
+    .testimonial-section_content-wrapper h1 {
+      font-family: "Abril Fatface", cursive;
+      font-weight: normal;
+      font-size: 60px;
+      text-align: right;
+      color: #1e1e1f;
+      margin-bottom: 5px; }
+    .testimonial-section_content-wrapper h5 {
+      font-family: "Poppins", sans-serif;
+      font-weight: normal;
+      font-size: 18px;
+      letter-spacing: 0.3em;
+      text-align: right;
+      color: #5f5f5f; }
+    .testimonial-section_content-wrapper .section-title_line {
+      text-align: end;
+      margin: 33.8px 0 45.4px auto; }
+  .testimonial-section img {
+    width: 100%;
+    height: auto;
+    margin-top: -50px;
+    margin-bottom: -50px; }
+  .testimonial-section i {
+    font-size: 36px;
+    letter-spacing: 0.3em;
+    line-height: 80px;
+    text-align: center;
+    color: #ddd; }
+  .testimonial-section .testimonial-slider-wrapper {
+    padding-left: 71.4px;
+    padding-right: 130.3px; }
+    .testimonial-section .testimonial-slider-wrapper .owl-dots {
+      position: absolute;
+      bottom: -104px;
+      right: 138px; }
+      .testimonial-section .testimonial-slider-wrapper .owl-dots button {
+        width: 8px;
+        height: 8px;
+        background: #5f5f5f;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin-right: 10px; }
+      .testimonial-section .testimonial-slider-wrapper .owl-dots .active {
+        background: #ca2751; }
+    .testimonial-section .testimonial-slider-wrapper span {
+      margin-bottom: 35px; }
+    .testimonial-section .testimonial-slider-wrapper p {
+      padding-left: 90px;
+      padding-right: 14px;
+      text-align: justify; }
+      .testimonial-section .testimonial-slider-wrapper p span {
+        margin-bottom: 35px;
+        display: inline-block; }

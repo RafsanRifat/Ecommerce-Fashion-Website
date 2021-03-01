@@ -50,7 +50,7 @@ $(document).ready(function(){
           date: endDate,
           render: function(data) {
             $(this.el).html(
-                "<div class='single-date-wraper'><div class='date-wraper'><h3 id='daysLeft'>" + this.leadingZeros(data.days, 3) + "</h3> </div><p>Days</p></div><div class='single-date-wraper'><div class='date-wraper'><h3 id='daysLeft'>" + this.leadingZeros(data.hours, 2) + " </h3> </div><p>HOURS</p></div><div class='single-date-wraper'><div class='date-wraper'><h3 id='daysLeft'>" + this.leadingZeros(data.min, 2) + " </h3> </div><p>MINS</p></div><div class='single-date-wraper'><div class='date-wraper'><h3 id='daysLeft'>" + this.leadingZeros(data.sec, 2) + " </h3> </div><p>SECONDS</p></div>");
+                "<div class='single-date-wraper'><div class='date-wraper'><h3 id='daysLeft'>" + this.leadingZeros(data.days, 2) + "</h3> </div><p>Days</p></div><div class='single-date-wraper'><div class='date-wraper'><h3 id='daysLeft'>" + this.leadingZeros(data.hours, 2) + " </h3> </div><p>HOURS</p></div><div class='single-date-wraper'><div class='date-wraper'><h3 id='daysLeft'>" + this.leadingZeros(data.min, 2) + " </h3> </div><p>MINS</p></div><div class='single-date-wraper'><div class='date-wraper'><h3 id='daysLeft'>" + this.leadingZeros(data.sec, 2) + " </h3> </div><p>SECONDS</p></div>");
           }
         });
 

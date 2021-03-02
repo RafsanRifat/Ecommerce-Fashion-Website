@@ -178,3 +178,44 @@
 // .active{
 //     background: #fff;
 // }
+
+
+
+
+
+//start of blog slider
+.blog-slider-wrapper{
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid $border-color;
+    padding: 40px 0;
+   
+   
+
+    .blog-slider-items{
+        flex: 16.5%;
+        align-items: center;
+        justify-self: center;
+        text-align: center;
+        display: flex;
+      justify-content: center;
+        margin:0;
+        padding: 0;
+
+        img{
+            width: auto;
+        }
+
+       
+
+
+    }
+
+    .owl-nav.disabled+.owl-dots {
+        margin: 0;
+        display: none;
+    }
+   
+}
+//Ends of blog slider

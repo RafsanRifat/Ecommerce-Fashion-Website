@@ -1,0 +1,56 @@
+.our-blog_blog-title {
+    display: flex;
+    flex-direction: row;
+
+    &_date-wrapper {
+        margin-right: 29.9px;
+        border: 1px solid $border-color;
+        height: 100%;
+
+        h2 {
+            padding: 18.6px 14.7px 11.4px 15.3px;
+            border-bottom: 1px solid $border-color;
+        }
+
+        p {
+            padding: 2px 21.2px 8px 20.8px;
+        }
+    }
+
+    &_title-wrapper {
+        width: 100%;
+
+        h3 {
+            line-height: 36px;
+        }
+
+        &_read-more a {
+            display: flex;
+            margin-top: 30px;
+
+            &:hover{
+               img{
+                transition: all ease .5s;
+                -webkit-transition: all ease .5s;
+                -moz-transition: all ease .5s;
+                -ms-transition: all ease .5s;
+                -o-transition: all ease .5s;
+
+                   margin-left: 10px;
+               }
+            }
+
+
+            p {
+                margin-right: 14.7px;
+            }
+
+
+
+        }
+
+
+    }
+
+
+}

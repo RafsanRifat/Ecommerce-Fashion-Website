@@ -184,16 +184,17 @@
 
 
 //start of blog slider
-.blog-slider-wrapper{
+.footer-slider-wrapper{
     display: flex !important;
     flex-direction: row;
     flex-wrap: wrap;
     border: 1px solid $border-color;
+    border-bottom: none;
     padding: 40px 0;
    
    
 
-    .blog-slider-items{
+    .footer-slider-items{
         flex: 16.5%;
         align-items: center;
         justify-self: center;

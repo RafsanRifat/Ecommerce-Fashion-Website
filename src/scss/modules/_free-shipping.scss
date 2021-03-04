@@ -5,8 +5,26 @@
         &:nth-child(3){
            .free-shipping_wrapper_items{
             border-right: none;
+           
            }
         }
+
+       &:nth-child(1){
+        @include respond(tab-port){
+            .free-shipping_wrapper_items{
+                border-right: none;
+               
+               }
+        }
+       }
+       &:nth-child(2){
+        @include respond(tab-port){
+            .free-shipping_wrapper_items{
+                border-right: none;
+               
+               }
+        }
+       }
     }
     
     &_items {
@@ -15,6 +33,11 @@
         justify-content: center;
         align-items: center;
         border-right: 1px solid $border-color;
+
+        @include respond(tab-port){
+            border-bottom: 1px solid $border-color;
+        }
+       
 
         
         

@@ -38,6 +38,7 @@
         &_currency {
             border-left: 1px solid $border-color;
             text-align: end;
+            
         }
     }
 }
@@ -46,27 +47,57 @@
 
 //navbar start
 .pika-nav {
+    @include respond(tab-port){
+        border: 1px solid $border-color;
+        border-top: none;
+       .row{
+           align-items: center;
+       }
+       @include respond(phone-large){
+        border-top: 1px solid $border-color;
+    }
+    }
     &_logo {
-        padding: 66.7px 107.9px 67.8px 95px;
+        padding: 66.7px 0 67.8px ;
         border-right: 1px solid $border-color;
         border-bottom: 1px solid $border-color;
         border-left: 1px solid $border-color;
+        display: flex;
+        justify-content: center;
+
+        @include respond(tab-port){
+            border-left: none;
+            border-bottom: none;
+            padding: 34.7px 0 35.8px;
+        }
     }
 
     &_right {
         border-bottom: 1px solid $border-color;
         border-right: 1px solid $border-color;
 
+        @include respond(tab-port){
+            border-bottom: none;
+        }
+
         &_top {
             border-bottom: 1px solid $border-color;
             display: flex;
             flex-wrap: wrap;
+
+            @include respond(tab-port){
+                border-bottom: none;
+            }
 
             &_search-bar {
                 flex: 77.77%;
                 padding-top: 31.8px;
                 padding-bottom: 33px;
                 position: relative;
+
+                @include respond(phone-large){
+                    display: none;
+                }
 
                 form {
                     margin: auto;
@@ -117,6 +148,12 @@
                 text-align: center;
                 border-left: 1px solid $border-color;
 
+                @include respond(phone-large){
+                    max-width: 15%;
+                    margin-left: auto;
+                }
+               
+
             }
 
             &_menu-icon {
@@ -125,6 +162,11 @@
                 padding-bottom: 38.2px;
                 border-left: 1px solid $border-color;
                 text-align: center;
+
+
+                @include respond(phone-large){
+                    max-width: 15%;
+                }
             }
 
         }
@@ -135,6 +177,10 @@
             flex-direction: row;
             padding: 18.8px 136.2px 21.2px 143.8px;
 
+            @include respond(tab-port){
+                display: none;
+            }
+
             a{
                 &:focus{
                     color: red;
@@ -142,5 +188,18 @@
             }
 
         }
+    }
+}
+
+.mobile-search-bar{
+    border: 1px solid $border-color;
+    border-top: none;
+    margin-bottom: 30px;
+    display: none;
+    padding-top: 21.8px;
+    padding-bottom: 23px;
+
+    @include respond(phone-large){
+        display: block;
     }
 }

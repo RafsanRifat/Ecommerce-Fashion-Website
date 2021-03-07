@@ -152,6 +152,7 @@
     &_image-part {
         position: relative;
 
+      
 
 
         img {
@@ -320,6 +321,10 @@
 
     &_content-part {
         text-align: center;
+        @include respond(tab-port){
+            margin-bottom: 30px;
+         }
+ 
 
         h6 {
             font-family: $poppins-font;

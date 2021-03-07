@@ -1,8 +1,8 @@
 .pika-nav {
     margin-bottom: 30px;
 
-    @include respond(phone-large){
-       margin-bottom: 0;
+    @include respond(phone-large) {
+        margin-bottom: 0;
     }
 }
 
@@ -10,12 +10,18 @@
 //categories part start===========================
 
 .catagories {
+    .categorie-collapse {
+        width: 100%;
+    }
+
+
     &_wrapper {
         border: 1px solid $border-color;
 
         &_top-content {
             padding: 43px 0 39.9px 0;
             text-align: center;
+            cursor: pointer;
 
             h2 {
                 margin-bottom: 5px;
@@ -26,7 +32,7 @@
             display: flex;
             flex-wrap: wrap;
             border-top: 1px solid $border-color;
-            text-align: center;
+            text-align: left;
 
 
             &_icon {
@@ -43,6 +49,7 @@
             &_categorie-name {
                 flex: 66.66%;
                 padding: 30.2px 0 29.8px 0;
+                padding-left: 10px;
 
                 p {
                     display: inline-block;
@@ -75,12 +82,12 @@
     .fashion {
         position: relative;
 
-       
-            @include respond(tab-port){
-               
-                margin-bottom: 30px;
-            }
-          
+
+        @include respond(tab-port) {
+
+            margin-bottom: 30px;
+        }
+
 
         img {
             width: 100%;
@@ -150,12 +157,21 @@
     background: #f7f7f8;
 
     .special-deal-image {
-        img {
-            width: 100%;
-            height: auto;
-            margin-top: -50px;
-            margin-bottom: -50px;
-        }
+
+        background: url(../../img/home-1/home-1-special-deal.png);
+        height: 123%;
+        width: 100%;
+        margin-top: -50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+        // img {
+        //     width: 100%;
+        //     height: auto;
+        //     margin-top: -50px;
+        //     margin-bottom: -50px;
+        // }
     }
 
     .special-deal-content-wrapper {
@@ -376,9 +392,11 @@
 //start of footer section
 .footer {
     margin-top: 96.4px;
-    &_full-border{
+
+    &_full-border {
         border-top: 1px solid $border-color;
     }
+
     &_wrapper {
         border: 1px solid $border-color;
         border-top: none;
@@ -391,7 +409,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         border-bottom: 1px solid $border-color;
-        
+
 
         &_email-subscribtion {
             flex: 45.7%;
@@ -413,9 +431,9 @@
 
 
                 &::placeholder {
-                   
+
                     margin-bottom: 11.8px;
-                   
+
 
                 }
 
@@ -496,7 +514,7 @@
 
 
     &_middle-part {
-        
+
         &_items {
             padding-left: 29.1px;
             border-right: 1px solid $border-color;
@@ -513,20 +531,25 @@
                 margin-bottom: 31px;
 
             }
-            &_mobile{
+
+            &_mobile {
                 margin-bottom: 31px;
             }
-            &_office{
+
+            &_office {
                 margin-bottom: 6px;
             }
-            &_address{
+
+            &_address {
                 margin-bottom: 37.8px;
             }
-            &_gmail{
+
+            &_gmail {
                 margin-top: 8.2px;
                 padding-bottom: 94.8px;
             }
-            &_follow{
+
+            &_follow {
                 font-family: $poppins-font;
                 font-weight: 500;
                 font-size: 24px;
@@ -535,42 +558,44 @@
                 color: #1e1e1f;
             }
 
-            ul{
+            ul {
                 padding: 0;
-                li{
+
+                li {
                     list-style: none;
                     margin-bottom: 12px;
 
-                   a:hover{
-                    
-                        color:  #5f5f5f;
-                    
-                   }
+                    a:hover {
+
+                        color: #5f5f5f;
+
+                    }
                 }
             }
 
         }
 
-        .footer-middle-part-last-item{
+        .footer-middle-part-last-item {
             border-right: none;
         }
     }
 
 
 
-    &_bottom-part{
+    &_bottom-part {
         background: #1e1e1f;
-        &_wrapper{
+
+        &_wrapper {
             display: flex;
             justify-content: center;
             padding: 38px 0 27px;
             align-items: center;
 
-            i{
+            i {
                 color: #ca2751;
             }
 
-            p{
+            p {
                 color: $white-color;
 
             }

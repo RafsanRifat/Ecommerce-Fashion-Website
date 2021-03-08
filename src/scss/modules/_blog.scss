@@ -2,6 +2,11 @@
     display: flex;
     flex-direction: row;
 
+    @include respond(tab-port) {
+        margin-bottom: 35px;
+
+    }
+
     &_date-wrapper {
         margin-right: 29.9px;
         border: 1px solid $border-color;
@@ -27,6 +32,11 @@
         &_read-more a {
             display: flex;
             margin-top: 30px;
+
+            @include respond(tab-port) {
+                margin-top: 20px;
+
+            }
 
             &:hover{
                img{

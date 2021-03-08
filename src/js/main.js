@@ -69,12 +69,15 @@ $(document).ready(function () {
 
         responsive: {
             0: {
-                items: 6
+                items: 2
             },
-            600: {
-                items: 6
+            576: {
+                items: 2
             },
-            1000: {
+            1024: {
+                items: 4
+            },
+            1200: {
                 items: 6
             }
         }

@@ -35,9 +35,19 @@
         //     }
         // }
 
+        &_language{
+            .dropdown-menu{
+                top: 12px !important;
+            }
+        }
+
         &_currency {
             border-left: 1px solid $border-color;
             text-align: end;
+
+            .dropdown-menu{
+                top: 12px !important;
+            }
 
         }
     }
@@ -179,12 +189,22 @@
                 }
 
                 .dropdown-menu {
-                    min-width: 8rem;
+                    min-width: 16rem;
                     // left: -44.5px  !important;
+                    padding: 20px;
 
                     box-shadow: -1px 14px 25px -1px rgba(0,0,0,0.42);
                     -webkit-box-shadow: -1px 14px 25px -1px rgba(0,0,0,0.42);
                     -moz-box-shadow: -1px 14px 25px -1px rgba(0,0,0,0.42);
+
+                    a{
+                        padding-left: 0;
+
+                        &:nth-child(7){
+                            padding-top: 30px;
+                            border-top: 1px solid $border-color;
+                        }
+                    }
                 }
 
 

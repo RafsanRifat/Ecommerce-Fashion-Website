@@ -27,6 +27,11 @@
 
         h3 {
             line-height: 36px;
+
+            @include respond(tab-port) {
+                font-size: 22px;
+                line-height: 30px;
+            }
         }
 
         &_read-more a {
@@ -34,7 +39,7 @@
             margin-top: 30px;
 
             @include respond(tab-port) {
-                margin-top: 20px;
+                margin-top: 10px;
 
             }
 

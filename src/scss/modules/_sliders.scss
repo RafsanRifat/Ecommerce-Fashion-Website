@@ -106,6 +106,10 @@
                 line-height: 43.45px;
                 color: #fff;
 
+                @include respond(tab-port) {
+                    font-size: 37px;
+                }
+
             }
             .btn{
                                 margin-top: 50px;

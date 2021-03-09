@@ -3,6 +3,12 @@
     margin-bottom: 50px;
     text-align: center;
 
+    @include respond(tab-port) {
+        margin-top: 50px;
+        margin-bottom: 30px;
+
+    }
+
     h2 {
         font-family: $abril-font;
         font-weight: normal;
@@ -34,11 +40,11 @@
 
     }
 
-    &:hover{
-        .section-title_line{
-          
-           width: 300px;
-          
-}
+    &:hover {
+        .section-title_line {
+
+            width: 300px;
+
+        }
     }
 }

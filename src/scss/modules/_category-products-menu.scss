@@ -1,0 +1,8 @@
+.category-products-menu{
+    display: flex;
+    justify-content: space-between;
+
+    .sort-by, .show, .grid-list-wrapper{
+        display: flex;
+    }
+}

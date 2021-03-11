@@ -1,0 +1,52 @@
+.category-pika-nav {
+    margin-bottom: 0;
+}
+
+.category-banner {
+    background: url(../../img/category/category-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+    &_content {
+        padding-top: 186px;
+        padding-bottom: 188px;
+        
+
+        .dropdown-menu {
+            background: rgb(4, 155, 198);
+            top: 30px  !important;
+            left: -136px !important;
+        }
+
+
+        h2 {
+            color: $white-color;
+            margin-bottom: 20px;
+        }
+
+        &_home {
+            display: flex;
+            background: #ca2751;
+            justify-content: center;
+            padding: 6.2px 20px;
+           
+
+            p,
+            a {
+                color: $white-color;
+                text-align: center;
+                font-size: 16px;
+
+            }
+
+            .dropright .dropdown-toggle::after {
+                margin: 0 24px;
+            }
+
+
+        }
+    }
+
+}

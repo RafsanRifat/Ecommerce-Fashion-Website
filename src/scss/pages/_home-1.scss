@@ -1,5 +1,5 @@
 .pika-nav {
-    margin-bottom: 30px;
+   
 
     @include respond(phone-large) {
         margin-bottom: 0;
@@ -10,6 +10,7 @@
 //categories part start===========================
 
 .catagories {
+    margin-top: 30px;
     .categorie-collapse {
         width: 100%;
     }

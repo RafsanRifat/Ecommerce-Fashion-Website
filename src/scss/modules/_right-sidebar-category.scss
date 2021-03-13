@@ -1,0 +1,40 @@
+.category-right-sidebar-wrapper {
+    .category-right-sidebar-title {
+        margin-bottom: 28.5px;
+        h3 {
+            font-family: $poppins-font;
+            font-weight: normal;
+            font-size: 24px;
+            text-align: left;
+            color: #1e1e1f;
+        }
+    }
+
+    .category-inner{
+        .category-items{
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid $border-color;
+            padding-bottom: 10.7px;
+            margin-bottom: 11.3px;
+            
+
+            .minus{
+                display: none;
+            } 
+
+            p{
+                &:active{
+                    color: red;
+                }
+            }
+            
+            
+
+        }
+
+        .category-sub-items{
+            margin-left: 20px;
+        }
+    }
+}

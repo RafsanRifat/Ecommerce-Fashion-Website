@@ -91,6 +91,17 @@ $(document).ready(function () {
 
 
 
+    //category page right category collapse
+
+    $(".clothing-category").click(function(){
+        $("span", this).toggleClass("plus minus");
+      });
+
+     
+      
+
+
+
 
 
 });

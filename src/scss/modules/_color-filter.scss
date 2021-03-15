@@ -1,0 +1,70 @@
+.color-filter-wrapper {
+    border-bottom: 1px solid $border-color;
+
+    .color-filter-title {
+        margin-bottom: 32.3px;
+
+        h3 {
+            font-family: $poppins-font;
+            font-weight: normal;
+            font-size: 24px;
+            text-align: left;
+            color: #1e1e1f;
+        }
+    }
+
+    .colors-wrapper {
+        padding-bottom: 40px;
+
+        ul {
+            display: flex;
+            padding-left: 0;
+
+            li {
+                list-style: none;
+                margin-right: 7px;
+
+                .color {
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                }
+
+                .orange-color{
+                    background: $orange-color;
+                }
+                .light-green{
+                    background: $light-green;
+                    position: relative;
+
+                    img{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        -webkit-transform: translate(-50%, -50%);
+                        -moz-transform: translate(-50%, -50%);
+                        -ms-transform: translate(-50%, -50%);
+                        -o-transform: translate(-50%, -50%);
+}
+                }
+                .green-color{
+                    background: $green-color;
+                }
+                .light-blue{
+                    background: $light-blue;
+                }
+                .light-orange{
+                    background: $light-blue;
+                }
+                .purple-color{
+                    background: $purple-color;
+                }
+            }
+        }
+    }
+}

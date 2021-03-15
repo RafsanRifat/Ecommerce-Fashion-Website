@@ -1,0 +1,44 @@
+.menufactures-company-title {
+    h3 {
+        font-family: $poppins-font;
+        font-weight: normal;
+        font-size: 24px;
+        text-align: left;
+        color: #1e1e1f;
+        margin-bottom: 28.5px;
+    }
+
+}
+
+.menufactures-wrapper {
+
+    ul {
+        padding-left: 0;
+
+        li {
+            list-style: none;
+            border-bottom: 1px solid $border-color;
+            padding-bottom: 10.7px;
+            margin-bottom: 11.3px;
+
+            p {
+                font-size: 14px;
+                color: #5f5f5f;
+            }
+
+            a {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .menufactures-company-name {
+                    display: flex;
+
+                    .arrow-symbol {
+                        margin-right: 10.3px;
+                    }
+                }
+            }
+        }
+    }
+}

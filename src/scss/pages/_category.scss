@@ -3,7 +3,35 @@
 }
 
 .category-products-menu-wrapper{
+    
     .products{
         margin-bottom: 53.5px;
     }
+}
+
+
+
+.category-right-sidebar{
+
+    @include respond(tab-port) {
+        margin-top: 60px;
+    }
+}
+
+
+
+.menufactures-company-title{
+    margin-top: 53.7px;
+}
+
+.color-filter-wrapper{
+    margin-top: 53.7px;
+}
+
+.size-filter-wrapper{
+    margin-top: 53.7px;
+}
+
+.products-tag-wrapper{
+    margin-top: 53.7px;
 }

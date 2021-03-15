@@ -1,0 +1,27 @@
+.products-tag-wrapper {
+    .products-tag-title {
+        h3 {
+            font-family: $poppins-font;
+            font-weight: normal;
+            font-size: 24px;
+            text-align: left;
+            color: #1e1e1f;
+            margin-bottom: 32.3px;
+        }
+    }
+
+    .tags-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+
+        .tag{
+            padding: 10px;
+            border: 1px solid $border-color;
+            margin-right: 5px;
+            margin-bottom: 9.9px;
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+}

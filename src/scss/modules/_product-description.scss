@@ -2,9 +2,13 @@
 .product-details-slider-wrapper {
 
 
-  showm {
-    width: 400px;
-    height: 400px;
+  .showm {
+    width: 100%;
+    height: auto;
+  }
+  .showm div {
+    position: relative;
+    z-index: 9;
   }
 
   .small-img {

@@ -99,20 +99,7 @@ $(document).ready(function () {
 
       
 
-      //price-filter============
-
-      $("#ranged-value").freshslider({
-        range:true,// true or false
-        step: 2,
-        text:true,
-        min: 20,
-        max: 100,
-        unit: none,// the unit which slider is considering
-        enabled:true,// true or false
-        value: 10,// a number if unranged , or 2 elements array contains low and high value if ranged
-        onchange:function(low, high){}// callback function when slider caret's changed, onchange(low, high) for ranged, and onchange(value) for unranged
-        });
-        
+     
      
       
 

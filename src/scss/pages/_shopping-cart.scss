@@ -1,0 +1,91 @@
+.cart-items-wrapper {
+    border: 1px solid $border-color;
+    .cart-items-title-wrapper {
+        background: #f3f3f3;
+        padding: 12px 0;
+        border: 1px solid $border-color;
+
+        span {
+            font-size: 16px;
+        }
+
+        .title-centering {
+            text-align: center;
+        }
+    }
+
+
+    .cart-items-inner {
+
+        .cart-single-item{
+            border-bottom: 1px solid $border-color;
+            padding-bottom: 15px;
+        }
+        .cart-item {
+            margin-top: 15px;
+
+            .cart-item-short-details,
+            .input-number-wrapper,
+            .price,
+            .total-price,
+            .items-delete-edit-icons {
+                padding-top: 11.6px;
+            }
+
+            .cart-item-short-details{
+                display: flex;
+                flex-direction: column;
+
+                .name{
+                    font-size: 16px;
+                    margin-bottom: 10.2px;
+                }
+                .color, .size{
+                    font-size: 13px;
+                }
+            }
+
+            .input-number-wrapper{
+               width: 80px;
+               position: relative;
+               
+               .input_value{
+                width: 80px;
+                height: 30px;
+                border: 1px solid $border-color;
+                text-align: center;
+                outline: none;
+               }
+               .btn__minus{
+                position: absolute;
+                background: none;
+                border: none;
+                border-right: 1px solid $border-color;
+                left: 3px;
+                outline: none;
+                height: 30px;
+               }
+               .btn__plus{
+                position: absolute;
+                border: none;
+                background: none;
+                right: 3px;
+                border-left: 1px solid $border-color;
+                outline: none;
+                height: 30px;
+
+               }
+               // hide input number type arrow ==== 
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+            }
+        }
+
+        .items-centering {
+            text-align: center;
+        }
+    }
+}

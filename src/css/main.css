@@ -995,32 +995,44 @@ a {
       -o-border-radius: 50%; }
 
 .products-details-content-wrapper .add-to-cart-wrapper {
-  display: flex; }
-  .products-details-content-wrapper .add-to-cart-wrapper .input-wrapper {
-    position: relative; }
-    .products-details-content-wrapper .add-to-cart-wrapper .input-wrapper .quantity-minus {
-      position: absolute;
-      left: 13%;
-      top: 18%;
-      color: black; }
-    .products-details-content-wrapper .add-to-cart-wrapper .input-wrapper .quantity-plus {
-      position: absolute;
-      right: 13%;
-      top: 18%;
-      color: black; }
-    .products-details-content-wrapper .add-to-cart-wrapper .input-wrapper input {
-      height: 100%;
-      border: none;
-      outline: none;
-      border-left: 1px solid #D6D8DC;
-      border-right: 1px solid #D6D8DC;
-      width: 48px;
-      padding: 0;
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      padding-left: 20px; }
+  display: flex;
+  flex-wrap: wrap; }
+  .products-details-content-wrapper .add-to-cart-wrapper .input_value {
+    z-index: 100;
+    padding-left: 53px;
+    color: black  !important; }
+  .products-details-content-wrapper .add-to-cart-wrapper .input_number {
+    position: relative;
+    width: 120px; }
+  @media only screen and (max-width: 576px) {
+    .products-details-content-wrapper .add-to-cart-wrapper .input-number-wrapper {
+      flex: 100%;
+      margin-bottom: 15px;
+      margin-left: 0; } }
+  .products-details-content-wrapper .add-to-cart-wrapper .btn__minus {
+    position: absolute;
+    right: 7%;
+    top: 0%;
+    background: none;
+    border: none;
+    border-left: 1px solid #D6D8DC;
+    height: 100%;
+    padding-left: 11px;
+    outline: none; }
+  .products-details-content-wrapper .add-to-cart-wrapper .btn__plus {
+    position: absolute;
+    left: 7%;
+    border: none;
+    background: none;
+    top: 0%;
+    border-right: 1px solid #D6D8DC;
+    height: 100%;
+    padding-right: 10px;
+    outline: none; }
+  .products-details-content-wrapper .add-to-cart-wrapper input::-webkit-outer-spin-button,
+  .products-details-content-wrapper .add-to-cart-wrapper input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
   .products-details-content-wrapper .add-to-cart-wrapper div {
     margin-left: 15px; }
   .products-details-content-wrapper .add-to-cart-wrapper .button-shape {
@@ -1063,6 +1075,9 @@ a {
 .product-description-review-wrapper {
   border: 1px solid #D6D8DC;
   margin-top: 100px; }
+  @media only screen and (max-width: 991px) {
+    .product-description-review-wrapper {
+      margin-top: 60px; } }
   .product-description-review-wrapper .product-description-social-icon-wrapper {
     border-bottom: 1px solid #D6D8DC;
     display: flex;
@@ -1072,13 +1087,26 @@ a {
       text-align: center;
       padding: 19.9px 0 21.1px;
       border-right: 1px solid #D6D8DC; }
+      @media only screen and (max-width: 991px) {
+        .product-description-review-wrapper .product-description-social-icon-wrapper .social-icon-box a {
+          display: flex;
+          flex-direction: column; } }
       .product-description-review-wrapper .product-description-social-icon-wrapper .social-icon-box:nth-child(5) {
         border-right: none; }
       .product-description-review-wrapper .product-description-social-icon-wrapper .social-icon-box span {
         font-size: 13px;
         margin-left: 10.3px; }
+        @media only screen and (max-width: 991px) {
+          .product-description-review-wrapper .product-description-social-icon-wrapper .social-icon-box span {
+            margin-top: 10px; } }
+        @media only screen and (max-width: 576px) {
+          .product-description-review-wrapper .product-description-social-icon-wrapper .social-icon-box span {
+            display: none; } }
   .product-description-review-wrapper .description-review-tab-wrapper {
     margin-top: 67.3px; }
+    @media only screen and (max-width: 576px) {
+      .product-description-review-wrapper .description-review-tab-wrapper {
+        margin-top: 35px; } }
     .product-description-review-wrapper .description-review-tab-wrapper .nav-pills .nav-link.active,
     .product-description-review-wrapper .description-review-tab-wrapper .nav-pills .show > .nav-link {
       background: none;
@@ -1104,6 +1132,9 @@ a {
           padding: 20px 50px 20px 20px;
           border: 1px solid #D6D8DC;
           margin-left: 30px; }
+          @media only screen and (max-width: 991px) {
+            .product-description-review-wrapper .description-review-tab-wrapper .tab-content #pills-review .person-review-wrapper .person-review-content {
+              padding: 20px 20px 20px 20px; } }
           .product-description-review-wrapper .description-review-tab-wrapper .tab-content #pills-review .person-review-wrapper .person-review-content .stars {
             color: #fecc2f; }
           .product-description-review-wrapper .description-review-tab-wrapper .tab-content #pills-review .person-review-wrapper .person-review-content .person-review-date {
@@ -1116,7 +1147,8 @@ a {
               margin: 0 5px; }
       .product-description-review-wrapper .description-review-tab-wrapper .tab-content #pills-review .review-form-part {
         margin-top: 50px; }
-        .product-description-review-wrapper .description-review-tab-wrapper .tab-content #pills-review .review-form-part h4, .product-description-review-wrapper .description-review-tab-wrapper .tab-content #pills-review .review-form-part p {
+        .product-description-review-wrapper .description-review-tab-wrapper .tab-content #pills-review .review-form-part h4,
+        .product-description-review-wrapper .description-review-tab-wrapper .tab-content #pills-review .review-form-part p {
           margin-bottom: 20px; }
         .product-description-review-wrapper .description-review-tab-wrapper .tab-content #pills-review .review-form-part p {
           margin-bottom: 15px; }
@@ -1128,13 +1160,16 @@ a {
             color: #fecc2f; }
         .product-description-review-wrapper .description-review-tab-wrapper .tab-content #pills-review .review-form-part .review-form-wrapper .form-control {
           margin-bottom: 20px; }
-        .product-description-review-wrapper .description-review-tab-wrapper .tab-content #pills-review .review-form-part .review-form-wrapper input::placeholder, .product-description-review-wrapper .description-review-tab-wrapper .tab-content #pills-review .review-form-part .review-form-wrapper textarea::placeholder {
+        .product-description-review-wrapper .description-review-tab-wrapper .tab-content #pills-review .review-form-part .review-form-wrapper input::placeholder,
+        .product-description-review-wrapper .description-review-tab-wrapper .tab-content #pills-review .review-form-part .review-form-wrapper textarea::placeholder {
           display: none;
           color: #fff; }
-        .product-description-review-wrapper .description-review-tab-wrapper .tab-content #pills-review .review-form-part .review-form-wrapper input:active, .product-description-review-wrapper .description-review-tab-wrapper .tab-content #pills-review .review-form-part .review-form-wrapper textarea:active {
+        .product-description-review-wrapper .description-review-tab-wrapper .tab-content #pills-review .review-form-part .review-form-wrapper input:active,
+        .product-description-review-wrapper .description-review-tab-wrapper .tab-content #pills-review .review-form-part .review-form-wrapper textarea:active {
           outline: none;
           border: none; }
-        .product-description-review-wrapper .description-review-tab-wrapper .tab-content #pills-review .review-form-part .review-form-wrapper input:focus, .product-description-review-wrapper .description-review-tab-wrapper .tab-content #pills-review .review-form-part .review-form-wrapper textarea:focus {
+        .product-description-review-wrapper .description-review-tab-wrapper .tab-content #pills-review .review-form-part .review-form-wrapper input:focus,
+        .product-description-review-wrapper .description-review-tab-wrapper .tab-content #pills-review .review-form-part .review-form-wrapper textarea:focus {
           outline: none;
           box-shadow: none;
           border-color: #D6D8DC; }

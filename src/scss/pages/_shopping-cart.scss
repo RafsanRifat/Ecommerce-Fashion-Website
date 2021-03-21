@@ -1,5 +1,6 @@
 .cart-items-wrapper {
     border: 1px solid $border-color;
+
     .cart-items-title-wrapper {
         background: #f3f3f3;
         padding: 12px 0;
@@ -17,12 +18,29 @@
 
     .cart-items-inner {
 
-        .cart-single-item{
+        .cart-single-item {
             border-bottom: 1px solid $border-color;
             padding-bottom: 15px;
+
+            @include respond(tab-port) {
+                padding: 0;
+
+            }
         }
+
         .cart-item {
             margin-top: 15px;
+
+            @include respond(tab-port) {
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid $border-color;
+                align-items: center;
+                margin-top: 0;
+                padding-top: 0;
+                padding: 20px 10px;
+
+            }
 
             .cart-item-short-details,
             .input-number-wrapper,
@@ -30,58 +48,84 @@
             .total-price,
             .items-delete-edit-icons {
                 padding-top: 11.6px;
+
+                @include respond(tab-port) {
+                    padding-top: 0;
+
+                }
             }
 
-            .cart-item-short-details{
+            .cart-item-short-details {
                 display: flex;
                 flex-direction: column;
 
-                .name{
+                .name {
                     font-size: 16px;
                     margin-bottom: 10.2px;
+
+                    @include respond(tab-port) {
+                        font-size: 14px;
+
+                    }
                 }
-                .color, .size{
+
+                .color,
+                .size {
                     font-size: 13px;
                 }
             }
 
-            .input-number-wrapper{
-               width: 80px;
-               position: relative;
-               
-               .input_value{
+            .input-number-wrapper {
                 width: 80px;
-                height: 30px;
-                border: 1px solid $border-color;
-                text-align: center;
-                outline: none;
-               }
-               .btn__minus{
-                position: absolute;
-                background: none;
-                border: none;
-                border-right: 1px solid $border-color;
-                left: 3px;
-                outline: none;
-                height: 30px;
-               }
-               .btn__plus{
-                position: absolute;
-                border: none;
-                background: none;
-                right: 3px;
-                border-left: 1px solid $border-color;
-                outline: none;
-                height: 30px;
+                position: relative;
 
-               }
-               // hide input number type arrow ==== 
-    input::-webkit-outer-spin-button,
-    input::-webkit-inner-spin-button {
-      -webkit-appearance: none;
-      margin: 0;
-    }
+                .input_value {
+                    width: 80px;
+                    height: 30px;
+                    border: 1px solid $border-color;
+                    text-align: center;
+                    outline: none;
+                }
+
+                .btn__minus {
+                    position: absolute;
+                    background: none;
+                    border: none;
+                    border-right: 1px solid $border-color;
+                    left: 3px;
+                    outline: none;
+                    height: 30px;
+                }
+
+                .btn__plus {
+                    position: absolute;
+                    border: none;
+                    background: none;
+                    right: 3px;
+                    border-left: 1px solid $border-color;
+                    outline: none;
+                    height: 30px;
+
+                }
+
+                // hide input number type arrow ==== 
+                input::-webkit-outer-spin-button,
+                input::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                }
             }
+
+            .total-price {
+                color: #ca2751;
+            }
+
+            .items-delete-edit-icons {
+                .fa-trash-alt {
+                    margin-right: 21px;
+                }
+            }
+
         }
 
         .items-centering {
@@ -89,3 +133,252 @@
         }
     }
 }
+
+
+
+//start of cupon section
+.cupon-section {
+    margin-top: 40px;
+
+    .cupon-section-wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .cupon-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+
+            @include respond(tab-port) {
+                flex: 100%;
+                justify-content: center;
+                margin-bottom: 20px;
+
+            }
+
+            .cupon-number {
+
+                @include respond(phone-medium) {
+                    flex: 100%;
+                    justify-content: center;
+                    width: 100%;
+                    margin-bottom: 15px;
+
+                }
+
+                input {
+                    padding: 13px 63.5px 15px 14.5px;
+                    border: 1px solid $border-color;
+                    outline: none;
+                    margin-right: 15px;
+
+
+                    @include respond(phone-medium) {
+                        width: 100%;
+
+                    }
+
+
+                }
+            }
+
+            .cupon-button {
+                @include respond(phone-medium) {
+                    flex: 100%;
+                    width: 100% !important;
+
+
+                }
+
+                button {
+                    @include respond(phone-medium) {
+                        flex: 100%;
+                        width: 100% !important;
+
+
+                    }
+                }
+            }
+        }
+
+        .update-cart-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+
+            @include respond(tab-port) {
+                flex: 100%;
+                justify-content: center;
+
+            }
+
+
+            .update-button {
+                margin-right: 15px;
+
+                @include respond(phone-medium) {
+                    flex: 100%;
+                    justify-content: center;
+                    width: 100%;
+                    margin-right: 0;
+
+                }
+
+                button {
+                    @include respond(tab-port) {
+                        width: 100%;
+                        margin-bottom: 15px;
+
+
+                    }
+                }
+            }
+
+            .checkout-button {
+                @include respond(phone-medium) {
+                    width: 100%;
+
+                }
+
+                .cart-btn {
+                    background: #ca2751;
+                    color: #fff;
+
+                    @include respond(phone-medium) {
+                        flex: 100%;
+                        justify-content: center;
+                        width: 100%;
+
+                    }
+
+                }
+            }
+
+        }
+    }
+}
+
+//Ends of cupon section
+
+
+//start of calculate shipping
+.calculate-shipping-section {
+    margin-top: 80px;
+
+    .calculate-shipping-wrapper {
+        border: 1px solid $border-color;
+
+        .calculate-shipping-title-wrapper {
+            padding-top: 16.7px;
+            padding-bottom: 20.3px;
+            padding-left: 29.3px;
+            background: #F3F3F3;
+            border-bottom: 1px solid $border-color;
+
+            h3 {
+                font-family: $poppins-font;
+            }
+        }
+
+        .calculate-shipping-inner {
+            padding: 40px 30px;
+
+            .calculate-shipping-country-state-wrapper {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .calculate-shipping-country-wrapper {
+                    flex: 45%;
+                    // width: 100%;
+                    margin-right: 10px;
+                    
+                }
+
+                .calculate-shipping-state-wrapper {
+                    // width: 100%;
+                    flex: 45%;
+                }
+
+                .dropdown {
+                    border: 1px solid $border-color;
+                    padding: 15px 15.3px 15.3px 15.3px;
+                    width: 100%;
+                }
+
+                .dropdown-menu{
+                    top: 14px !important;
+                    width: 100%;
+                    left: -15px !important;
+                   
+}
+
+                .dropdown .dropdown-toggle::after {
+                    position: absolute;
+                    right: 15px;
+                }
+            }
+
+            .calculate-shipping-zip-update-tools-wrapper {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin-top: 10px;
+
+                .calculate-shipping-zip {
+                    flex: 45%;
+                    margin-right: 10px;
+                    input {
+                        padding: 13px 10px 15px 14.5px;
+                        border: 1px solid $border-color;
+                        outline: none;
+                        margin-right: 10px;
+                        width: 100%;
+
+                    }
+                }
+
+                .calculate-shipping-update-button{
+                    flex: 45%;
+                   button{
+                       width: 100%;
+                       background: #ca2751;
+                       color: #fff;
+                   }
+                }
+
+            }
+        }
+    }
+
+
+    //cart total=====================
+    .cart-total-wrapper{
+        border: 1px solid $border-color;
+        .cart-total-title{
+            padding-top: 16.7px;
+            padding-bottom: 20.3px;
+            padding-left: 29.3px;
+            background: #F3F3F3;
+            border-bottom: 1px solid $border-color;
+
+            h3 {
+                font-family: $poppins-font;
+            }
+        }
+
+        .cart-tital-item{
+            padding: 11.7px 54.5px 8.3px 29.5px;
+            border-bottom: 1px solid $border-color;
+            display: flex;
+            justify-content: space-between;
+            span{
+                font-size: 14px;
+                color: #5f5f5f;
+            }
+        }
+    }
+
+}
+
+//ends of calculate shipping

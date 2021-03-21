@@ -8,10 +8,29 @@
     text-align: left;
     color: #1e1e1f;
 
-    &:focus
+    &:focus,
     &:active {
         border: none;
         box-shadow: none !important;
         outline: none;
     }
+}
+
+
+//shopping-cart button
+
+@mixin  cart-btn {
+    padding: 14.5px 28px 15.2px 28px;
+    font-size: 14px;
+    background: #d6d8dc;
+    border: none;
+
+    &:focus,
+    &:active {
+        border: none;
+        box-shadow: none !important;
+        outline: none;
+    }
+    
+
 }

@@ -27,3 +27,11 @@ h6{
 p{
     @include p;
 }
+
+.btn{
+    @include btn;
+}
+
+.cart-btn{
+    @include cart-btn;
+}

@@ -2092,6 +2092,11 @@ a {
         .calculate-shipping-section .calculate-shipping-wrapper .calculate-shipping-inner .calculate-shipping-country-state-wrapper .calculate-shipping-country-wrapper {
           flex: 45%;
           margin-right: 10px; }
+          @media only screen and (max-width: 576px) {
+            .calculate-shipping-section .calculate-shipping-wrapper .calculate-shipping-inner .calculate-shipping-country-state-wrapper .calculate-shipping-country-wrapper {
+              flex: 100%;
+              margin-right: 0;
+              margin-bottom: 10px; } }
         .calculate-shipping-section .calculate-shipping-wrapper .calculate-shipping-inner .calculate-shipping-country-state-wrapper .calculate-shipping-state-wrapper {
           flex: 45%; }
         .calculate-shipping-section .calculate-shipping-wrapper .calculate-shipping-inner .calculate-shipping-country-state-wrapper .dropdown {
@@ -2113,6 +2118,11 @@ a {
         .calculate-shipping-section .calculate-shipping-wrapper .calculate-shipping-inner .calculate-shipping-zip-update-tools-wrapper .calculate-shipping-zip {
           flex: 45%;
           margin-right: 10px; }
+          @media only screen and (max-width: 576px) {
+            .calculate-shipping-section .calculate-shipping-wrapper .calculate-shipping-inner .calculate-shipping-zip-update-tools-wrapper .calculate-shipping-zip {
+              flex: 100%;
+              margin-right: 0;
+              margin-bottom: 10px; } }
           .calculate-shipping-section .calculate-shipping-wrapper .calculate-shipping-inner .calculate-shipping-zip-update-tools-wrapper .calculate-shipping-zip input {
             padding: 13px 10px 15px 14.5px;
             border: 1px solid #D6D8DC;
@@ -2127,6 +2137,9 @@ a {
             color: #fff; }
   .calculate-shipping-section .cart-total-wrapper {
     border: 1px solid #D6D8DC; }
+    @media only screen and (max-width: 991px) {
+      .calculate-shipping-section .cart-total-wrapper {
+        margin-top: 30px; } }
     .calculate-shipping-section .cart-total-wrapper .cart-total-title {
       padding-top: 16.7px;
       padding-bottom: 20.3px;
@@ -2140,6 +2153,9 @@ a {
       border-bottom: 1px solid #D6D8DC;
       display: flex;
       justify-content: space-between; }
+      @media only screen and (max-width: 576px) {
+        .calculate-shipping-section .cart-total-wrapper .cart-tital-item {
+          padding: 11.7px 11.7px 8.3px 11.7px; } }
       .calculate-shipping-section .cart-total-wrapper .cart-tital-item span {
         font-size: 14px;
         color: #5f5f5f; }

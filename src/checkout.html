@@ -265,7 +265,7 @@
             <div class="row">
                 <div class="col-12 col-lg-7">
                     <div class="checkout-first-title">
-                        <p>Returning customer? Click here to login</p>
+                        <p>Returning customer? <span>Click here to login</span></p>
                     </div>
                     <div class="form-heading">
                         <h3>Billing details</h3>
@@ -290,55 +290,57 @@
                                 </div>
                               </div>
                               <div class="form-group">
-                                <label for="inputCountry">Company Name</label>
-                                <input type="text" class="form-control" id="inputCountry" >
+                                <label for="inputCompanyName">Company Name</label>
+                                <input type="text" class="form-control" id="inputCompanyName" >
                               </div>
                               <div class="form-group">
-                                <label for="inputCountry">Address *</label>
-                                <input type="text" class="form-control" id="inputCountry" placeholder="Street Address">
+                                <label for="inputAddress">Address *</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="Street Address">
                               </div>
                             <div class="form-group">
                               <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, suite, unit etc. (optional)">
                             </div>
                             <div class="form-group">
-                                <label for="inputCountry">Town / City *</label>
-                                <input type="text" class="form-control" id="inputCountry" placeholder="Town / City">
+                                <label for="inputCity">Town / City *</label>
+                                <input type="text" class="form-control" id="inputCity" placeholder="Town / City">
                               </div>
                               <div class="form-group">
                                 <label for="inputCountry">Country</label>
-                                <input type="text" class="form-control" id="inputAddress2" >
+                                <input type="text" class="form-control" id="inputCountry" >
                               </div>
                               <div class="form-group">
-                                <label for="inputCountry">Postcode *</label>
-                                <input type="text" class="form-control" id="inputCountry" placeholder="Postcode">
+                                <label for="inputPostCode">Postcode *</label>
+                                <input type="text" class="form-control" id="inputPostCode" placeholder="Postcode">
                               </div>
                               <div class="form-row">
                                 <div class="form-group col-md-6">
-                                  <label for="inputFirstName">Email Address *</label>
-                                  <input type="text" class="form-control" id="inputFirstName" >
+                                  <label for="inputEmail">Email Address *</label>
+                                  <input type="text" class="form-control" id="inputEmail" >
                                 </div>
                                 <div class="form-group col-md-6">
-                                  <label for="inputLastName">Phone *</label>
-                                  <input type="text" class="form-control" id="inputLastName" >
+                                  <label for="inputPhone">Phone *</label>
+                                  <input type="text" class="form-control" id="inputPhone" >
                                 </div>
                               </div>
 
-                            <div class="form-group">
-                              <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck">
-                                <label class="form-check-label" for="gridCheck">
-                                    Create an account?
-                                </label>
-                              </div>
+                            <div class="form-checkbox-wrapper">
+                                <div class="form-group">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" id="gridCheck">
+                                      <label class="form-check-label" for="gridCheck">
+                                          Create an account?
+                                      </label>
+                                    </div>
+                                  </div>
+                                  <div class="form-group">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                          Ship to a different address? 
+                                        </label>
+                                      </div>
+                                    </div>
                             </div>
-                            <div class="form-group">
-                                <div class="form-check">
-                                  <input class="form-check-input" type="checkbox" id="gridCheck">
-                                  <label class="form-check-label" for="gridCheck">
-                                    Ship to a different address? 
-                                  </label>
-                                </div>
-                              </div>
                             <textarea class="form-control" id="text-area-checkout"  rows="4" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
                           </form>
                     </div>
@@ -346,7 +348,7 @@
 
                 <div class="col-12 col-lg-5">
                     <div class="checkout-first-title">
-                        <p>Returning customer? Click here to login</p>
+                        <p>Returning customer? <span>Click here to login</span></p>
                     </div>
 
                     <div class="checkout-order-wrapper">
@@ -389,6 +391,28 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                          Default radio
+                        </label>
+                        <div class="radio-content">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eveniet temporibus labore incidunt vero consequuntur iste error sint mollitia fugit?
+                        </div>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                          Second default radio
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                          Second default radio
+                        </label>
+                      </div>
                 </div>
             </div>
         </div>

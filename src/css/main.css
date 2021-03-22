@@ -2159,3 +2159,52 @@ a {
       .calculate-shipping-section .cart-total-wrapper .cart-tital-item span {
         font-size: 14px;
         color: #5f5f5f; }
+
+.checkout-section {
+  margin-top: 100px; }
+  .checkout-section .checkout-first-title {
+    border: 1px solid #D6D8DC;
+    background: #f3f3f3;
+    padding: 13.6px 0 16.4px 14.8px;
+    margin-bottom: 49px; }
+    .checkout-section .checkout-first-title p {
+      color: #1e1e1f;
+      font-size: 14px; }
+      .checkout-section .checkout-first-title p span {
+        color: black; }
+  .checkout-section .form-heading {
+    margin-bottom: 18.2px; }
+    .checkout-section .form-heading h3 {
+      font-family: "Poppins", sans-serif; }
+  .checkout-section .checkout-form-wrapper form .form-group label {
+    margin-top: 16.1px;
+    font-size: 13px;
+    color: #5f5f5f; }
+  .checkout-section .checkout-form-wrapper form .form-group input {
+    padding: 15px 0 15px 15px; }
+    .checkout-section .checkout-form-wrapper form .form-group input:active {
+      outline: none;
+      box-shadow: none; }
+    .checkout-section .checkout-form-wrapper form .form-group input:focus {
+      outline: none;
+      box-shadow: none;
+      border-color: #D6D8DC; }
+    .checkout-section .checkout-form-wrapper form .form-group input::placeholder {
+      font-size: 13px;
+      color: #5f5f5f; }
+  .checkout-section .checkout-form-wrapper form textarea {
+    padding: 15px 0 15px 15px; }
+    .checkout-section .checkout-form-wrapper form textarea:active {
+      outline: none;
+      box-shadow: none; }
+    .checkout-section .checkout-form-wrapper form textarea:focus {
+      outline: none;
+      box-shadow: none;
+      border-color: #D6D8DC; }
+    .checkout-section .checkout-form-wrapper form textarea::placeholder {
+      font-size: 13px;
+      color: #5f5f5f; }
+  .checkout-section .checkout-form-wrapper form .form-checkbox-wrapper {
+    margin-top: 35.7px; }
+    .checkout-section .checkout-form-wrapper form .form-checkbox-wrapper label {
+      margin-top: 0; }

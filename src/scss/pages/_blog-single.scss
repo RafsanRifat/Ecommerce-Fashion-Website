@@ -1,0 +1,39 @@
+.blog-single-banner{
+    .blog-single-banner-bottom{
+        padding: 17px 0 20px 0;
+        border-bottom: 1px solid $border-color;
+    }
+       .blog-single-content-home{
+           display: flex;
+           flex-direction: row;
+
+           .dropright .dropdown-toggle::after{
+               margin: 0 24px;
+           }
+       }
+}
+
+
+.admin-post-section{
+    .blog-single-admin-post-wrapper{
+        .blog-single-admin-post-top{
+            display: flex;
+            flex-direction: row;
+            border: 1px solid $border-color;
+            border-top: none;
+
+            .admin-identity{
+                flex: 42.74%;
+            }
+            .date-wrapper{
+                flex: 10.94%;
+            }
+            .topic{
+                flex: 19.57%;
+            }
+            .tag{
+                flex: 26.58%;
+            }
+        }
+    }
+}

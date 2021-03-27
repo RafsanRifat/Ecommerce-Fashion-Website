@@ -2279,3 +2279,27 @@ a {
       .blog-style-single-blog-wrapper .card .blog-short-details-wrapper .blog-short-details p {
         font-family: "Poppins", sans-serif;
         font-size: 14px; }
+
+.blog-single-banner .blog-single-banner-bottom {
+  padding: 17px 0 20px 0;
+  border-bottom: 1px solid #D6D8DC; }
+
+.blog-single-banner .blog-single-content-home {
+  display: flex;
+  flex-direction: row; }
+  .blog-single-banner .blog-single-content-home .dropright .dropdown-toggle::after {
+    margin: 0 24px; }
+
+.admin-post-section .blog-single-admin-post-wrapper .blog-single-admin-post-top {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #D6D8DC;
+  border-top: none; }
+  .admin-post-section .blog-single-admin-post-wrapper .blog-single-admin-post-top .admin-identity {
+    flex: 42.74%; }
+  .admin-post-section .blog-single-admin-post-wrapper .blog-single-admin-post-top .date-wrapper {
+    flex: 10.94%; }
+  .admin-post-section .blog-single-admin-post-wrapper .blog-single-admin-post-top .topic {
+    flex: 19.57%; }
+  .admin-post-section .blog-single-admin-post-wrapper .blog-single-admin-post-top .tag {
+    flex: 26.58%; }

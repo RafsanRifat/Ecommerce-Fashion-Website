@@ -2208,3 +2208,40 @@ a {
     margin-top: 35.7px; }
     .checkout-section .checkout-form-wrapper form .form-checkbox-wrapper label {
       margin-top: 0; }
+
+.checkout-order-wrapper {
+  border: 1px solid #D6D8DC;
+  margin-bottom: 40px; }
+  .checkout-order-wrapper .checkout-order-title {
+    padding: 19.5px 0 17.5px 29.6px;
+    background: #f3f3f3;
+    border-bottom: 1px solid #D6D8DC; }
+    .checkout-order-wrapper .checkout-order-title h3 {
+      font-family: Poppins;
+      font-weight: normal;
+      font-size: 24px;
+      color: #1e1e1f; }
+  .checkout-order-wrapper .checkout-order-inner .checkout-order-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8.7px 115.5px 11.3px 29.5px;
+    border-bottom: 1px solid #D6D8DC; }
+    .checkout-order-wrapper .checkout-order-inner .checkout-order-item:nth-child(even) {
+      background: #f3f3f3; }
+    .checkout-order-wrapper .checkout-order-inner .checkout-order-item:last-child {
+      border-bottom: none; }
+
+.payment-option-wrapper {
+  border: 1px solid #D6D8DC; }
+  .payment-option-wrapper .bank-transfer {
+    padding: 31.4px 30px 21.9px 30px;
+    border-bottom: 1px solid #D6D8DC; }
+    .payment-option-wrapper .bank-transfer .radio-content {
+      font-size: 13px;
+      margin-top: 10.5px; }
+  .payment-option-wrapper .other-payment {
+    padding: 19.5px 0 21.5px 30px;
+    border-bottom: 1px solid #D6D8DC;
+    background: #f3f3f3; }
+    .payment-option-wrapper .other-payment:last-child {
+      border-bottom: none; }

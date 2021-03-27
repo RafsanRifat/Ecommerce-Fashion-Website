@@ -2245,3 +2245,37 @@ a {
     background: #f3f3f3; }
     .payment-option-wrapper .other-payment:last-child {
       border-bottom: none; }
+
+.blog-style-banner {
+  background: url(../../img/blog-style/blog-banner.png);
+  margin-bottom: 100px; }
+
+.blog-style-single-blog-wrapper {
+  margin-bottom: 60px; }
+  .blog-style-single-blog-wrapper .card .card-body {
+    padding: 0; }
+    .blog-style-single-blog-wrapper .card .card-body .card-title {
+      font-family: "Abril Fatface", cursive;
+      color: #1e1e1f;
+      border-bottom: 1px solid #D6D8DC;
+      padding: 23px 25px 28px 25px;
+      margin-bottom: 0; }
+      .blog-style-single-blog-wrapper .card .card-body .card-title:hover {
+        color: #ca2751; }
+  .blog-style-single-blog-wrapper .card .blog-short-details-wrapper {
+    display: flex;
+    flex-direction: row; }
+    .blog-style-single-blog-wrapper .card .blog-short-details-wrapper .blog-date-wrapper {
+      display: flex;
+      flex-direction: column; }
+      .blog-style-single-blog-wrapper .card .blog-short-details-wrapper .blog-date-wrapper .date {
+        padding: 18.6px 14.7px 11.4px 15.3px;
+        border-bottom: 1px solid #D6D8DC; }
+      .blog-style-single-blog-wrapper .card .blog-short-details-wrapper .blog-date-wrapper .month {
+        padding: 7px 21.2px 8px 20.8px; }
+    .blog-style-single-blog-wrapper .card .blog-short-details-wrapper .blog-short-details {
+      border-left: 1px solid #D6D8DC;
+      padding: 13.4px 25.9px 18px 24.2px; }
+      .blog-style-single-blog-wrapper .card .blog-short-details-wrapper .blog-short-details p {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px; }

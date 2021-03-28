@@ -2290,16 +2290,129 @@ a {
   .blog-single-banner .blog-single-content-home .dropright .dropdown-toggle::after {
     margin: 0 24px; }
 
-.admin-post-section .blog-single-admin-post-wrapper .blog-single-admin-post-top {
-  display: flex;
-  flex-direction: row;
-  border: 1px solid #D6D8DC;
-  border-top: none; }
-  .admin-post-section .blog-single-admin-post-wrapper .blog-single-admin-post-top .admin-identity {
-    flex: 42.74%; }
-  .admin-post-section .blog-single-admin-post-wrapper .blog-single-admin-post-top .date-wrapper {
-    flex: 10.94%; }
-  .admin-post-section .blog-single-admin-post-wrapper .blog-single-admin-post-top .topic {
-    flex: 19.57%; }
-  .admin-post-section .blog-single-admin-post-wrapper .blog-single-admin-post-top .tag {
-    flex: 26.58%; }
+.admin-post-section .blog-single-admin-post-wrapper {
+  margin-bottom: 30px; }
+  .admin-post-section .blog-single-admin-post-wrapper .blog-single-admin-post-top {
+    margin-bottom: 49px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #D6D8DC;
+    border-top: none; }
+    .admin-post-section .blog-single-admin-post-wrapper .blog-single-admin-post-top .admin-identity {
+      flex: 42.74%;
+      display: flex;
+      align-items: center;
+      padding: 30px 0 30px 56px;
+      border-right: 1px solid #D6D8DC; }
+      .admin-post-section .blog-single-admin-post-wrapper .blog-single-admin-post-top .admin-identity .admin-image {
+        margin-right: 24.1px; }
+      .admin-post-section .blog-single-admin-post-wrapper .blog-single-admin-post-top .admin-identity .admin-name span {
+        font-size: 16px; }
+    .admin-post-section .blog-single-admin-post-wrapper .blog-single-admin-post-top .date-wrapper {
+      flex: 10.94%;
+      border-right: 1px solid #D6D8DC; }
+      .admin-post-section .blog-single-admin-post-wrapper .blog-single-admin-post-top .date-wrapper h2 {
+        padding: 23.9px 46.2px 16.1px 46.8px;
+        border-bottom: 1px solid #D6D8DC; }
+      .admin-post-section .blog-single-admin-post-wrapper .blog-single-admin-post-top .date-wrapper span {
+        padding: 12px 36.9px 16px 36.1px;
+        display: block; }
+    .admin-post-section .blog-single-admin-post-wrapper .blog-single-admin-post-top .topic {
+      flex: 19.57%;
+      display: flex;
+      justify-content: center;
+      padding-top: 29.6px;
+      border-right: 1px solid #D6D8DC; }
+    .admin-post-section .blog-single-admin-post-wrapper .blog-single-admin-post-top .tag {
+      flex: 26.58%;
+      display: flex;
+      justify-content: center;
+      padding-top: 29.6px; }
+  .admin-post-section .blog-single-admin-post-wrapper .post-content-wrapper {
+    border-bottom: 1px solid #D6D8DC; }
+    .admin-post-section .blog-single-admin-post-wrapper .post-content-wrapper .post-title {
+      margin-bottom: 35.2px; }
+    .admin-post-section .blog-single-admin-post-wrapper .post-content-wrapper .post-content p {
+      margin-bottom: 35px; }
+    .admin-post-section .blog-single-admin-post-wrapper .post-content-wrapper .post-social-icons {
+      padding-top: 30px;
+      margin-bottom: 60px;
+      display: flex; }
+      .admin-post-section .blog-single-admin-post-wrapper .post-content-wrapper .post-social-icons a:hover {
+        color: #ca2751; }
+      .admin-post-section .blog-single-admin-post-wrapper .post-content-wrapper .post-social-icons span {
+        margin-right: 40px; }
+      .admin-post-section .blog-single-admin-post-wrapper .post-content-wrapper .post-social-icons i {
+        margin-right: 30px; }
+
+.admin-post-comment-wrapper {
+  margin-bottom: 98.3px; }
+  .admin-post-comment-wrapper .media img {
+    margin-right: 30px; }
+  .admin-post-comment-wrapper .media .media-body {
+    background: #f3f3f3;
+    padding: 34.3px 40.7px 37px 39.7px;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    color: #5f5f5f; }
+    .admin-post-comment-wrapper .media .media-body h6 {
+      margin-bottom: 18.8px; }
+
+.related-post-section .related-post-title {
+  border-bottom: 1px solid #D6D8DC;
+  margin-bottom: 30px; }
+  .related-post-section .related-post-title h2 {
+    margin-bottom: 18.7px; }
+
+.blog-single-comment-section .blog-single-comment-comment {
+  margin-bottom: 35px; }
+
+.blog-single-comment-section .blog-single-comment-wrapper .blog-single-comment {
+  margin-bottom: 30px; }
+  .blog-single-comment-section .blog-single-comment-wrapper .blog-single-comment span {
+    font-size: 13px; }
+  .blog-single-comment-section .blog-single-comment-wrapper .blog-single-comment .media img {
+    margin-right: 30px; }
+  .blog-single-comment-section .blog-single-comment-wrapper .blog-single-comment .media .media-body {
+    background: #f3f3f3;
+    padding: 15.8px 20.6px 11.6px 19.8px; }
+    .blog-single-comment-section .blog-single-comment-wrapper .blog-single-comment .media .media-body .comment-name-date-wrapper {
+      display: flex;
+      padding: 15.8px 0;
+      margin-bottom: 17.1px;
+      border-bottom: 1px solid #D6D8DC; }
+      .blog-single-comment-section .blog-single-comment-wrapper .blog-single-comment .media .media-body .comment-name-date-wrapper .comment-name {
+        margin-right: 40px; }
+      .blog-single-comment-section .blog-single-comment-wrapper .blog-single-comment .media .media-body .comment-name-date-wrapper .comment-date {
+        margin-right: 10px; }
+
+.blog-comment-form-wrapper {
+  margin-top: 96.8px; }
+  .blog-comment-form-wrapper .blog-comment-title {
+    margin-bottom: 19.2px; }
+  .blog-comment-form-wrapper .blog-form .asterisk_input::after {
+    content: " *";
+    color: #e32;
+    position: absolute;
+    margin: 0px 0px 0px -20px;
+    font-size: xx-large;
+    padding: 0 5px 0 0; }
+  .blog-comment-form-wrapper .blog-form input {
+    margin-bottom: 15px; }
+    .blog-comment-form-wrapper .blog-form input::placeholder::after {
+      content: '*';
+      color: red;
+      position: absolute; }
+  .blog-comment-form-wrapper .btn {
+    background: #ca2751;
+    color: #fff;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    padding: 18.2px 29.2px 18.8px 28.8px;
+    margin-top: 30px; }

@@ -1,6 +1,8 @@
 .nav-top_wraper {
     border-bottom: 1px solid $border-color;
     padding: 15.2px 0 12.8px 0;
+    z-index: 2;
+    position: relative;
 
     .nav-top {
 
@@ -57,6 +59,8 @@
 
 //navbar start
 .pika-nav {
+    z-index: 2;
+    position: relative;
     @include respond(tab-port) {
         border: 1px solid $border-color;
         border-top: none;
@@ -124,6 +128,7 @@
                     border: none;
                     border-bottom: 1px solid $border-color;
                     padding-bottom: 10px;
+                    background: none;
 
                     &:focus,
                     &:active {

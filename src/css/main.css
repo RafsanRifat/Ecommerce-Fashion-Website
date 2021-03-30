@@ -2459,11 +2459,16 @@ a {
         background: #1e1e1f;
         color: #fff; }
 
-.our-team-section .products .about-us-social-media-wrapper {
-  margin-top: 15.1px; }
-  .our-team-section .products .about-us-social-media-wrapper a {
-    margin-right: 20px; }
-    .our-team-section .products .about-us-social-media-wrapper a:last-child {
-      margin-right: 0; }
-    .our-team-section .products .about-us-social-media-wrapper a:hover {
-      color: #ca2751; }
+.our-team-section {
+  margin-bottom: 148px; }
+  .our-team-section .products .about-us-social-media-wrapper {
+    margin-top: 15.1px; }
+    .our-team-section .products .about-us-social-media-wrapper a {
+      margin-right: 20px; }
+      .our-team-section .products .about-us-social-media-wrapper a:last-child {
+        margin-right: 0; }
+      .our-team-section .products .about-us-social-media-wrapper a:hover {
+        color: #ca2751; }
+
+.testimonial-section {
+  background: url(../../img/about-page/about-testimonial-background.png); }

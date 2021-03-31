@@ -61,32 +61,34 @@
         position: relative;
         background: #fff;
 
-        .about-content-wrapper{
-            .about-content-inner{
+        .about-content-wrapper {
+            .about-content-inner {
                 display: flex;
-            flex-direction: column;
-            align-items: center;
+                flex-direction: column;
+                align-items: center;
 
-            .about-image{
-                margin-top: 100px;
-                margin-bottom: 28.3px;
-            }
-            .section-title{
-                margin-top: 0;
-                margin-bottom: 25.4px;
-            }
-            .about-content{
-                margin-bottom: 56.6px;
-            }
-
-            .about-button{
-                margin-bottom: 60px;
-
-                .btn{
-                    background: #1e1e1f;
-                    color: #fff;
+                .about-image {
+                    margin-top: 100px;
+                    margin-bottom: 28.3px;
                 }
-            }
+
+                .section-title {
+                    margin-top: 0;
+                    margin-bottom: 25.4px;
+                }
+
+                .about-content {
+                    margin-bottom: 56.6px;
+                }
+
+                .about-button {
+                    margin-bottom: 60px;
+
+                    .btn {
+                        background: #1e1e1f;
+                        color: #fff;
+                    }
+                }
 
             }
 
@@ -95,18 +97,21 @@
 }
 
 //start of our team section
-.our-team-section{
+.our-team-section {
     margin-bottom: 148px;
-    .products{
-        .about-us-social-media-wrapper{
+
+    .products {
+        .about-us-social-media-wrapper {
             margin-top: 15.1px;
 
-            a{
+            a {
                 margin-right: 20px;
-                &:last-child{
+
+                &:last-child {
                     margin-right: 0;
                 }
-                &:hover{
+
+                &:hover {
                     color: #ca2751;
 
                 }
@@ -114,11 +119,58 @@
         }
     }
 }
+
 //ends of our team section
 
 
 //start of testimonial section
-.testimonial-section{
+.testimonial-section {
+  padding-bottom: 200px;
     background: url(../../img/about-page/about-testimonial-background.png);
+    background-repeat: no-repeat;
+
+    .testimonial-content-wrapper {
+
+        .testimonial-content-top {
+          
+ .section-title {
+
+                h2,
+                p {
+                    color: #fff;
+                }
+            }
+        }
+
+        .testimonial-section-content{
+            margin-bottom: 56.7px;
+            p{
+                color: #fff;
+                font-family: $abril-font;
+            }
+        }
+
+
+        .testimonial-person-wrapper {
+            display: flex;
+            align-items: center;
+            color: #fff;
+            justify-content: center;
+
+            .testimonial-person {
+                margin-right: 19.9px;
+            }
+
+            .testimonial-person-title {
+
+                h4,
+                p {
+                    color: #fff;
+                }
+            }
+        }
+
+    }
 }
+
 // ends of testimonial section

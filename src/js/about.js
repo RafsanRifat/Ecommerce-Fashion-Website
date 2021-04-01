@@ -28,12 +28,12 @@ $(document).ready(function () {
         });
       });
       
-//////////////////////////
+////////////////////////// 
 
     //   $( ".instagram_feed  .instagram_gallery" ).addClass( "owl-carousel about-insta owl-theme" );
     //   $( ".instagram_feed  .instagram-image" ).addClass( "item" );
 
-alert()
+
 
       $('.instagram_gallery').owlCarousel({
           

@@ -2492,3 +2492,56 @@ a {
     .testimonial-section .testimonial-content-wrapper .testimonial-person-wrapper .testimonial-person-title h4,
     .testimonial-section .testimonial-content-wrapper .testimonial-person-wrapper .testimonial-person-title p {
       color: #fff; }
+
+.contact-banner {
+  background: url(../../img/contact/contact-banner.png);
+  margin-bottom: 90.1px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.contact-wrapper .contact-information-wrapper .contact-information-title {
+  margin-bottom: 32.2px; }
+  .contact-wrapper .contact-information-wrapper .contact-information-title h2 {
+    font-family: "Poppins", sans-serif; }
+
+.contact-wrapper .contact-information-wrapper .contact-information-content {
+  margin-bottom: 30px; }
+
+.contact-wrapper .contact-information-wrapper .contact-information-contact-wrapper .contact-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px; }
+  .contact-wrapper .contact-information-wrapper .contact-information-contact-wrapper .contact-wrapper .contact-icon {
+    margin-right: 45px;
+    font-size: 16px; }
+  .contact-wrapper .contact-information-wrapper .contact-information-contact-wrapper .contact-wrapper .contact-details {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px; }
+
+.contact-wrapper .contact-section-form-wrapper {
+  padding: 54px 30px 63px;
+  border: 15px solid #f3f3f3; }
+  .contact-wrapper .contact-section-form-wrapper input,
+  .contact-wrapper .contact-section-form-wrapper textarea {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #D6D8DC; }
+    .contact-wrapper .contact-section-form-wrapper input:focus,
+    .contact-wrapper .contact-section-form-wrapper textarea:focus {
+      box-shadow: none; }
+    .contact-wrapper .contact-section-form-wrapper input::placeholder,
+    .contact-wrapper .contact-section-form-wrapper textarea::placeholder {
+      font-size: 14px; }
+  .contact-wrapper .contact-section-form-wrapper .btn {
+    width: 100%;
+    background: #ca2751;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    border: none; }

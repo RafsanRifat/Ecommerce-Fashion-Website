@@ -2470,27 +2470,27 @@ a {
       .our-team-section .products .about-us-social-media-wrapper a:hover {
         color: #ca2751; }
 
-.testimonial-section {
+.about-testimonial-section {
   padding-bottom: 200px;
   background: url(../../img/about-page/about-testimonial-background.png);
   background-repeat: no-repeat; }
-  .testimonial-section .testimonial-content-wrapper .testimonial-content-top .section-title h2,
-  .testimonial-section .testimonial-content-wrapper .testimonial-content-top .section-title p {
+  .about-testimonial-section .testimonial-content-wrapper .testimonial-content-top .section-title h2,
+  .about-testimonial-section .testimonial-content-wrapper .testimonial-content-top .section-title p {
     color: #fff; }
-  .testimonial-section .testimonial-content-wrapper .testimonial-section-content {
+  .about-testimonial-section .testimonial-content-wrapper .testimonial-section-content {
     margin-bottom: 56.7px; }
-    .testimonial-section .testimonial-content-wrapper .testimonial-section-content p {
+    .about-testimonial-section .testimonial-content-wrapper .testimonial-section-content p {
       color: #fff;
       font-family: "Abril Fatface", cursive; }
-  .testimonial-section .testimonial-content-wrapper .testimonial-person-wrapper {
+  .about-testimonial-section .testimonial-content-wrapper .testimonial-person-wrapper {
     display: flex;
     align-items: center;
     color: #fff;
     justify-content: center; }
-    .testimonial-section .testimonial-content-wrapper .testimonial-person-wrapper .testimonial-person {
+    .about-testimonial-section .testimonial-content-wrapper .testimonial-person-wrapper .testimonial-person {
       margin-right: 19.9px; }
-    .testimonial-section .testimonial-content-wrapper .testimonial-person-wrapper .testimonial-person-title h4,
-    .testimonial-section .testimonial-content-wrapper .testimonial-person-wrapper .testimonial-person-title p {
+    .about-testimonial-section .testimonial-content-wrapper .testimonial-person-wrapper .testimonial-person-title h4,
+    .about-testimonial-section .testimonial-content-wrapper .testimonial-person-wrapper .testimonial-person-title p {
       color: #fff; }
 
 .contact-banner {
